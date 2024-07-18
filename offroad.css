@@ -1,0 +1,119 @@
+body {
+    background-color: #556b2f;
+    background-image: linear-gradient(to bottom, beige, tan);
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #556b2f;
+    background-image: url(uinta-mountains-map.gif);
+    background-size: 110%;
+    background-position: center;
+    color: #000000;
+    height: 120px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 3em;
+}
+nav {
+    background-color: #556b2f;
+    float: left;
+    width: 190px;
+    min-height: 960px;
+    max-height: 2048px;
+    font-weight: bold;
+    font-size: 120%;
+    padding: 1.5em;
+}
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav a:hover {
+    color: #ffffff;
+    transition: 2s;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+main {
+    background-color: #ffffff;
+    margin-left: 190px;
+    padding: 1px 20px 20px 30px;
+    display: block;
+    overflow: auto;
+    min-height: 960px;
+    max-height: 2048px;
+}
+h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 3em;
+}
+h2 {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+    padding: 2em;
+    margin-left: 190px;
+    background: #ffffff;
+}
+#stupidnavbarthatfinallyworks {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #556b2f;
+    min-width: 960px;
+    max-width: 2048px;
+}
+table {
+    border: solid 2px #000000;
+    border-collapse: collapse;
+}
+td {
+   padding: .5em;
+   border: solid 2px #000000;
+   text-align: center; 
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   background-color: beige;
+}
+th {
+    padding: .5em;
+   border: solid 2px #000000;
+   font-family: Georgia, Times, 'Times New Roman', serif;
+   background-color: #556b2f;
+   color: white;
+}
+.text {
+    text-align: left;
+}
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+input[type="submit"] {
+    margin-left: 140px;
+}
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+*{box-sizing: border-box;}
+
